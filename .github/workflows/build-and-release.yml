@@ -82,7 +82,7 @@ jobs:
 
   # 为MacOS构建
   build-macos:
-    runs-on: macos-latest
+    runs-on: macos-13
     steps:
       - name: 检出代码
         uses: actions/checkout@v3
